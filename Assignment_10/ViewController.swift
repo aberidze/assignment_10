@@ -89,13 +89,4 @@ class ViewController: UIViewController {
     private func lcm(_ a: Int, _ b: Int) -> Int {
         return a * b / gcd(a, b)
     }
-    
-    // Private method for checking if string is a number:
-    private func isNumber(text: String) -> Bool {
-        if let _ = Int(text) {
-            return true
-        }
-        
-        return false
-    }
 }
